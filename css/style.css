@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none !important;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+::selection{
+    background-color: black;
+    color: white;
+}
+#userName{
+    display: none ;
+}
+
+#userInfo .cartProducts {
+    background-color: #343a40; 
+    transform: translate(-40%,0);
+    position: absolute;
+    z-index: 1;
+    padding: 10px;
+    top: 50px;
+    border: 1px solid #343a40;
+    box-shadow: 0px 5px 20px black;
+    display: none;
+
+}
+
+#userInfo .cartProducts a{
+    display: block;
+
+}
+
+.fontSize {
+    font-size: 30px;
+}
+.fontSize2 {
+    font-size: 25px;
+}
+.aloo:hover{
+    color: white !important;
+}
+input{
+    outline: none;
+}
+.container input[type="submit"]:hover {
+    background-color: rgb(182, 182, 182);
+}
+.headerContent{
+    position: relative ;
+    background-color: aquamarine;
+}
+#userName{
+    position: absolute ;
+    /* background-color: brown; */
+    top: 10px;
+    right: 100px;
+    font-size: 25px;
+    list-style: none;
+}
+
+
+.productItem{
+    margin: 20px 0px;
+    border: 2px solid #ddd;
+    position: relative;
+    top: 20px;
+    box-shadow: 7px 5px 20px black;
+}
+.productImg{
+    width: 300px;
+}
+.productIcon{
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    cursor: pointer;
+}
+.addToCart {
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: rgb(48, 48, 48);
+    transition: 0.3s;
+    border: none;
+
+}
+.addToCart:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.productsContainer2{
+    margin: 300px 0px;
+}
+
+#userInfo{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+
+}
+
+.headerPart2 ul {
+    list-style: none;
+}
+.headerPart2 ul li i {
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 140px;
+}
+.headerPart2 ul li i span{
+    font-size: 13px;
+
+}
+.myBadge{
+    vertical-align: top !important;
+}
+
+
+
+
+
+
+
+.logOut{
+    list-style: none;
+    top: 15px;
+    right: 20px;
+    position: absolute;
+}
